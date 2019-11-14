@@ -19,11 +19,13 @@
 }
 
 .Open {
+  transition-duration: 0.5s;
   transform: translateX(0);
 }
 
 .Close {
   transform: translateX(-100%);
+  transition-duration: 0.5s;
 }
 
 .Logo {
